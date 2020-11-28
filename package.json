@@ -1,0 +1,44 @@
+{
+  "name": "koa-timeout-middleware",
+  "version": "0.0.0",
+  "description": "Request timeout middleware for Koa",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c"
+  },
+  "files": [
+    "lib",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h1b9b/koa-timeout.git"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "timeout"
+  ],
+  "author": "h1b9b",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h1b9b/koa-timeout/issues"
+  },
+  "homepage": "https://github.com/h1b9b/koa-timeout#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "@types/koa": "^2.11.6",
+    "@types/supertest": "^2.0.10",
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "koa": "^2.13.0",
+    "rollup": "^2.33.3",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "supertest": "^6.0.1",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.2"
+  }
+}
